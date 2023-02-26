@@ -41,15 +41,11 @@ export class RegisterComponent {
     ])
   })
 
-  constructor() {
-    //this.registerForm.controls.name
-  }
-
   register() {
 
-    console.log('register')
     this.showAlert = true
     this.alertMsg = 'Please wait! Your account being created.'
     this.alertColor ='blue'
+    console.log(this.showAlert)
   }
 }
